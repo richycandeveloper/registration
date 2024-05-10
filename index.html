@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <section class="header">
+    <h1>king of greatnezzz tech hub</h1>
+  </section>
+    <div class="container">
+        <div class="form-container">
+          <img src="images/registration img.png" alt="Left Image">
+          <form action="#" method="post">
+            <div class="form-group">
+              <h2>Registration</h2>
+              <label for="full-name">Full Name:</label>
+              <input type="text" id="full-name" name="full-name" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <label for="country">Country:</label>
+              <select id="country" name="country" required>
+                <option value="">Select Country</option>
+                <option>Nigeria</option>
+                <option>mexico</option>
+                <option>USA</option>
+                <option>UK</option>
+                <option>Colombia</option>
+                <!-- Add options for countries -->
+              </select>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+              <label for="position">You are applying for:</label>
+              <input type="text" id="position" name="position" required>
+              <label for="phone">Phone Number:</label>
+              <select id="country-code" name="country-code" required>
+                <option value="">Select Country Code</option>
+                <option>+234</option>
+                <option>+52</option>
+                <option>+1</option>
+                <option>+53</option>
+                <option>+2</option>
+
+                <!-- Add options for country codes -->
+              </select>
+              <input type="text" id="phone" name="phone" required>
+              <label for="city">City:</label>
+              <input type="text" id="city" name="city" required>
+              <label for="confirm-password">Confirm Password:</label>
+              <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="form-group">
+              <label>Gender:</label>
+              <div class="gender-checkbox">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <input type="radio" id="prefer-not-to-say" name="gender" value="prefer-not-to-say">
+                <label for="prefer-not-to-say">Prefer not to say</label>
+              </div>
+            </div>
+            <button type="submit" class="linked-button">Next Step &rarr;</button>
+          </form>
+          <p style="margin-top: 20px;">Already have an account? <a href="#">Sign in</a></p>
+        </div>
+      </div>
+</body>
+</html>
